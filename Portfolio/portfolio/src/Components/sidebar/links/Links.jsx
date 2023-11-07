@@ -1,3 +1,4 @@
+import React from 'react';
 import {motion} from "framer-motion";
 const variants={
   open:{
@@ -41,4 +42,4 @@ const items=[
     )
 }
 
-export default Links
+export default React.memo(Links);
